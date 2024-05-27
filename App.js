@@ -1,25 +1,30 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement(
-  "div",
-  { id: "parent" },
+const elem = <span>Hello Span</span>;
+const HeadingComponent = () => {
+  return <h1>Hello World</h1>;
+};
 
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "I am child tage"),
-    React.createElement("h1", {}, "I am child tage"),
-  ])
+const TitleComponent = () => {
+  return <h2>Title Component</h2>;
+};
+
+const ParagraphComponent = () => {
+  return (
+    <div>
+      {100 + 200}
+      {elem}
+      <HeadingComponent />
+      <p>this is Paragraph Component</p>
+    </div>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <div>
+    <TitleComponent />
+    <ParagraphComponent />
+  </div>
 );
-
-const heading = React.createElement(
-  "h1",
-  { id: "heading", xyz: "abc" },
-  "Hello World from React Render!"
-);
-
-console.log(heading);
-
-const root = ReactDOM.createRoot(document.getElementById("test"));
-
-root.render(heading);
-root.render(parent);
