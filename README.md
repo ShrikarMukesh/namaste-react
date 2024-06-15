@@ -1,3 +1,7 @@
+# Functional Component: Is a jsut a Javascript function, which returns JSX code.
+
+# Props: Props are the arguments to a function.
+
 # Parcel -- Does Lot of thigs behind the scene
 
 - Dev Build
