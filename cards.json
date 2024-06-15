@@ -1,0 +1,1293 @@
+{
+  "card": {
+    "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+    "header": {
+      "title": "Top restaurant chains in Bangalore",
+      "action": {},
+      "headerStyling": {
+        "padding": {
+          "left": 16,
+          "top": 28,
+          "bottom": 18
+        }
+      }
+    },
+    "layout": {
+      "rows": 1,
+      "columns": 17,
+      "horizontalScrollEnabled": true,
+      "itemSpacing": 32,
+      "widgetPadding": {},
+      "containerStyle": {
+        "containerPadding": {
+          "left": 16,
+          "right": 12,
+          "bottom": 12
+        }
+      },
+      "scrollBar": {
+        "scrollThumbColor": "#E46D47",
+        "scrollTrackColor": "#02060C",
+        "width": 54,
+        "height": 4,
+        "scrollStyling": {
+          "padding": {
+            "top": 6,
+            "bottom": 24
+          }
+        }
+      },
+      "widgetTheme": {
+        "defaultMode": {
+          "backgroundColour": "#1B3028",
+          "theme": "THEME_TYPE_DARK"
+        },
+        "darkMode": {
+          "backgroundColour": "#1B3028",
+          "theme": "THEME_TYPE_DARK"
+        }
+      }
+    },
+    "id": "top_brands_for_you",
+    "gridElements": {
+      "infoWithStyle": {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+        "restaurants": [
+          {
+            "info": {
+              "id": "23846",
+              "name": "Domino's Pizza",
+              "cloudinaryImageId": "d0450ce1a6ba19ea60cd724471ed54a8",
+              "locality": "Rehinus Street",
+              "areaName": "Richmond Town",
+              "costForTwo": "₹400 for two",
+              "cuisines": ["Pizzas", "Italian", "Pastas", "Desserts"],
+              "avgRating": 4.3,
+              "parentId": "2456",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "10K+",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:59:00",
+                "opened": true
+              },
+              "badges": {
+                "imageBadges": [
+                  {
+                    "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                    "description": "Delivery!"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "Delivery!",
+                          "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                        }
+                      }
+                    ]
+                  },
+                  "textBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹150 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/dominos-pizza-rehinus-street-richmond-town-bangalore-23846",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "622202",
+              "name": "MOJO Pizza - 2X Toppings",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/20/349e8d46-3138-4b19-96b2-df400a77e285_622202.JPG",
+              "locality": "Langford Road",
+              "areaName": "Shantinagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Pizzas", "Italian", "Fast Food", "Desserts"],
+              "avgRating": 4.5,
+              "parentId": "11329",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "100+",
+              "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-30 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/mojo-pizza-2x-toppings-langford-road-shantinagar-bangalore-622202",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "750396",
+              "name": "Daily Kitchen - Homely Meals",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/741d7d41-1341-4358-b6e0-cc22b8e82f9a_750396.JPG",
+              "locality": "Lakshmi Road",
+              "areaName": "Langford Road",
+              "costForTwo": "₹400 for two",
+              "cuisines": ["Home Food", "Indian", "North Indian", "Thalis"],
+              "avgRating": 4.4,
+              "parentId": "444382",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "100+",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-25 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/daily-kitchen-homely-meals-lakshmi-road-langford-road-bangalore-750396",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "692226",
+              "name": "BOOM Sandwich - Sub of India",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/1392089b-bfd1-4ac2-90f5-cdb914aa163a_692226.JPG",
+              "locality": "Lakshmi Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Snacks", "Indian", "Desserts"],
+              "avgRating": 4.4,
+              "parentId": "401169",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "50+",
+              "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-30 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/boom-sandwich-sub-of-india-lakshmi-road-shanti-nagar-bangalore-692226",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "503001",
+              "name": "Mealful Rolls - India's Biggest Rolls",
+              "cloudinaryImageId": "0d959f87516479195952893fa26b11c9",
+              "locality": "SHANTHINAGAR",
+              "areaName": "Lakshmi Road",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Fast Food", "Snacks", "North Indian", "Desserts"],
+              "avgRating": 4.4,
+              "parentId": "10390",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "100+",
+              "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-30 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/mealful-rolls-indias-biggest-rolls-shanthinagar-lakshmi-road-bangalore-503001",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "503003",
+              "name": "ZAZA Mughal Biryani",
+              "cloudinaryImageId": "e12f3a72ab92442dc088f803a04d4293",
+              "locality": "Lakshmi Nagar Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Biryani", "North Indian", "Awadhi"],
+              "avgRating": 4.3,
+              "parentId": "22473",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "100+",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-25 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/zaza-mughal-biryani-lakshmi-nagar-road-shanti-nagar-bangalore-503003",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "503002",
+              "name": "NH1 Bowls - Highway To North",
+              "cloudinaryImageId": "94654fdf308764cd0faf83dba35bcdc3",
+              "locality": "Lakshmi Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["North Indian", "Punjabi", "Home Food"],
+              "avgRating": 4.6,
+              "parentId": "22452",
+              "avgRatingString": "4.6",
+              "totalRatingsString": "100+",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-25 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/nh1-bowls-highway-to-north-lakshmi-road-shanti-nagar-bangalore-503002",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "643832",
+              "name": "WeFit - Protein Bowls, Salads & Sandwiches",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/23/d32dda02-869b-46d5-b16c-47c4c14314e2_643832.JPG",
+              "locality": "Langford Road",
+              "areaName": "Santhinagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Healthy Food", "Salads", "Keto", "Snacks"],
+              "avgRating": 4.6,
+              "parentId": "355285",
+              "avgRatingString": "4.6",
+              "totalRatingsString": "100+",
+              "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-35 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "brand",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "brand"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/wefit-protein-bowls-salads-and-sandwiches-langford-road-santhinagar-bangalore-643832",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "681612",
+              "name": "LeanCrust Pizza- ThinCrust Experts",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/23/e5e23da8-f5d8-4782-bbe2-a8b28f64cad0_681612.JPG",
+              "locality": "Lakshmi Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹300 for two",
+              "cuisines": ["Pizzas", "Italian", "Desserts"],
+              "avgRating": 4.5,
+              "parentId": "11216",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "100+",
+              "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-30 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/leancrust-pizza-thincrust-experts-lakshmi-road-shanti-nagar-bangalore-681612",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "616273",
+              "name": "Bhatti Chicken - Grilled, NOT Fried!",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/20/2a97ccc8-394e-455b-99e7-22b55908b169_616273.JPG",
+              "locality": "Langford Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["North Indian", "Snacks", "Fast Food", "Tandoor"],
+              "avgRating": 4.3,
+              "parentId": "355286",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "10+",
+              "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-30 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/bhatti-chicken-grilled-not-fried-langford-road-shanti-nagar-bangalore-616273",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "681363",
+              "name": "GLOBO Ice Creams Of The World",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/28/04968076-c09c-464e-90e2-e0dd29ea1dfa_681363.JPG",
+              "locality": "Lakshmi Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹150 for two",
+              "cuisines": ["Ice Cream", "Desserts", "Bakery"],
+              "avgRating": 4,
+              "parentId": "22303",
+              "avgRatingString": "4.0",
+              "totalRatingsString": "20+",
+              "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "10-20 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/globo-ice-creams-of-the-world-lakshmi-road-shanti-nagar-bangalore-681363",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "740521",
+              "name": "Hola Pasta - Fresh Gourmet Pasta",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/1210606d-9f10-48d2-a517-202616db229d_740521.JPG",
+              "locality": "Lakshmi Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Pastas", "Italian", "Desserts", "Beverages"],
+              "avgRating": 4,
+              "parentId": "418135",
+              "avgRatingString": "4.0",
+              "totalRatingsString": "10+",
+              "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-30 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "isNewlyOnboarded": true,
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/hola-pasta-fresh-gourmet-pasta-lakshmi-road-shanti-nagar-bangalore-740521",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "503000",
+              "name": "Itminaan Matka Biryani - Slow Cooked",
+              "cloudinaryImageId": "e165225d26130103fecf1c40f5dc3669",
+              "locality": "Lakshmi Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Biryani", "North Indian", "Mughlai"],
+              "avgRating": 4.2,
+              "parentId": "107673",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "50+",
+              "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-35 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/itminaan-matka-biryani-slow-cooked-lakshmi-road-shanti-nagar-bangalore-503000",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "502999",
+              "name": "BOX8 - Desi Meals",
+              "cloudinaryImageId": "69a061b7e0f951cef2b4947946f94ec6",
+              "locality": "Lakshmi Road",
+              "areaName": "Shanti Nagar",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["North Indian", "Biryani", "Thalis", "Home Food"],
+              "avgRating": 4.5,
+              "parentId": "10655",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "1K+",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-25 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-11 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/box8-desi-meals-lakshmi-road-shanti-nagar-bangalore-502999",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "93499",
+              "name": "Oven Story Pizza  Standout Toppings",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/22/f67a86d9-b403-4e43-a64d-8e979684e8de_93499.JPG",
+              "locality": "Rashtriya Vidyalaya Rd",
+              "areaName": "Jayanagar",
+              "costForTwo": "₹400 for two",
+              "cuisines": [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Desserts",
+                "Beverages"
+              ],
+              "avgRating": 4.4,
+              "parentId": "3534",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "1K+",
+              "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 2.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-35 mins",
+                "lastMileTravelString": "2.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-10 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/oven-story-pizza-standout-toppings-rashtriya-vidyalaya-rd-jayanagar-bangalore-93499",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "439630",
+              "name": "Madno - House of Sundaes",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/3/0f8128ab-51fd-4a4e-81cc-19c3a5fc4d2b_439630.jpg",
+              "locality": "City Market",
+              "areaName": "Majestic",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Ice Cream", "Desserts", "Beverages"],
+              "avgRating": 4.3,
+              "veg": true,
+              "parentId": "264082",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "50+",
+              "sla": {
+                "deliveryTime": 50,
+                "lastMileTravel": 3.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "3.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-10 23:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "25% OFF",
+                "subHeader": "UPTO ₹125"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/madno-house-of-sundaes-city-market-majestic-bangalore-439630",
+              "type": "WEBLINK"
+            }
+          },
+          {
+            "info": {
+              "id": "45008",
+              "name": "Frozen Bottle - Milkshakes, Desserts And Ice Cream",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/13/93c0e916-72a0-478c-b738-d68c77507fce_45008.jpg",
+              "locality": "Magadi Road",
+              "areaName": "Binnipete",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["Beverages", "Ice Cream", "Desserts"],
+              "avgRating": 4.3,
+              "veg": true,
+              "parentId": "5655",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "1K+",
+              "sla": {
+                "deliveryTime": 47,
+                "lastMileTravel": 3.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "3.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-06-10 23:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "25% OFF",
+                "subHeader": "UPTO ₹125"
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "https://www.swiggy.com/restaurants/frozen-bottle-milkshakes-desserts-and-ice-cream-magadi-road-binnipete-bangalore-45008",
+              "type": "WEBLINK"
+            }
+          }
+        ],
+        "theme": "Restaurant_Group_WebView_SEO_PB_Theme",
+        "widgetType": "WIDGET_TYPE_POPULAR_BRANDS",
+        "style": {
+          "width": {
+            "type": "TYPE_RELATIVE",
+            "value": 0.41111112,
+            "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+          },
+          "height": {
+            "type": "TYPE_RELATIVE",
+            "value": 0.7027027,
+            "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+          },
+          "layoutAlignment": "LAYOUT_ALIGNMENT_LEFT"
+        },
+        "collectionId": "84124"
+      }
+    }
+  }
+}
