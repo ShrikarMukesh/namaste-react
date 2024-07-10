@@ -37,3 +37,8 @@ Footer Component
 - Error Handling
 - Https
 - Tree Shaking - remove unused code
+
+Two types of Export/Import
+default Export
+
+Named Export
