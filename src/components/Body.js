@@ -4,6 +4,16 @@ import restaurantsObj from "../utils/mockData";
 const Body = () => {
   return (
     <div className="body">
+      <div className="filter">
+        <button
+          className="filter-btn"
+          onClick={() => {
+            console.log("clicked");
+          }}
+        >
+          Top Rated restaurants
+        </button>
+      </div>
       <div className="search">Search</div>
       <div className="res-container">
         {restaurantsObj.map((restaurant, index) => (
