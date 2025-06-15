@@ -1,44 +1,108 @@
-Header Component
--- Logo Component
--- Menu Component
+# Namaste React Project Structure
 
-Body Component
--- Search Component
--- RestaurantContainer
--- RestaurantCard
--- Image
--- Name of Res, Star Rating, Cusines , delivery tie
+## Components
 
-Footer Component
--- Copyright Component
--- Links Component
--- Addess Component
--- Contact Component
+### Header Component
 
-# Functional Component: Is a jsut a Javascript function, which returns JSX code.
+- **Logo Component**
+- **Menu Component**
 
-# Props: Props are the arguments to a function.
+### Body Component
 
-# Parcel -- Does Lot of thigs behind the scene
+- **Search Component**
+- **RestaurantContainer**
+  - **RestaurantCard**
+    - Image
+    - Name of Restaurant
+    - Star Rating
+    - Cuisines
+    - Delivery Time
+
+### Footer Component
+
+- **Copyright**
+- **Links**
+- **Address**
+- **Contact**
+
+---
+
+## Concepts
+
+### Functional Component
+
+A functional component is just a JavaScript function that returns JSX code.
+
+### Props
+
+Props are the arguments passed to a component function.
+
+---
+
+## Parcel
+
+Parcel is a web application bundler that does a lot behind the scenes:
 
 - Dev Build
-- Local server
-- HMR = Hot Module Replacement
-- File Watching Algorithm -- written in C++
-- Caching - Faster Builds
+- Local Server
+- HMR (Hot Module Replacement)
+- File Watching Algorithm (written in C++)
+- Caching (Faster Builds)
 - Image Optimization
 - Minification
 - Bundling
-- Compress
+- Compression
 - Consistent Hashing
 - Code Splitting
-- Differential Bundling - To support for older browsers
-- Diagnostic
+- Differential Bundling (support for older browsers)
+- Diagnostics
 - Error Handling
-- Https
-- Tree Shaking - remove unused code
+- HTTPS
+- Tree Shaking (removes unused code)
 
-Two types of Export/Import
-default Export
+---
 
-Named Export
+## Two Types of Export/Import
+
+### Default Export/Import
+
+```javascript
+// Export
+export default MyComponent;
+
+// Import
+import MyComponent from "./MyComponent";
+```
+
+### Named Export/Import
+
+```javascript
+// Export
+export const MyComponent = () => {};
+
+// Import
+import { MyComponent } from "./MyComponent";
+```
+
+...................
+
+# React Hooks
+
+(Normal JS utility)
+
+React Hooks are special functions that let you use React features in functional components.
+
+## Common Hooks
+
+- **useState**: Adds state to functional components.
+- **useEffect**: Performs side effects (like data fetching).
+
+- **useContext**: Accesses context values.
+- **useRef**: Accesses mutable values that persist across renders.
+- **useReducer**: Manages complex state logic.
+- **useMemo**: Memoizes expensive calculations.
+- **useCallback**: Memoizes callback functions.
+
+# Virtual DOM
+
+virtual represents actual dom

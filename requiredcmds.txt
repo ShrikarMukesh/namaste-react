@@ -1,3 +1,5 @@
 
 npm install react (or) npm i react
 npm install react-dom
+
+npm run dev
