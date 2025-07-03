@@ -1,16 +1,16 @@
 import { CDN_URI } from "../utils/constants";
 
 const stayleCard = {
-  backgroundColor: "gray",
+  backgroundColor: "pink",
 };
 
 const RestaurantCard = (props) => {
-  //This called as destrucuring
-  //const { resName, cuisine } = props;
-
   const { resData } = props;
 
-  const { cloudinaryImageId, name, avgRating, cuisines } = resData;
+  // Destructure from resData.info for API data, fallback to resData for mock data
+  const info = resData.info || resData;
+  const { cloudinaryImageId, name, avgRating, cuisines, sla } = info;
+
   return (
     <div className="res-card" style={stayleCard}>
       <img
@@ -18,11 +18,10 @@ const RestaurantCard = (props) => {
         src={CDN_URI + cloudinaryImageId}
         alt="res-logo"
       />
-
       <h3>{name}</h3>
-      <h4>{cuisines.join(", ")}</h4>
+      <h4>{cuisines?.join(", ")}</h4>
       <h4>{avgRating}</h4>
-      <h4>Delivery Time: 30 min</h4>
+      <h4>Delivery Time: {sla?.deliveryTime || 30} min</h4>
     </div>
   );
 };
