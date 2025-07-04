@@ -1,75 +1,81 @@
-# Namaste React Project Structure
+# Namaste React
 
-## Components
-
-### Header Component
-
-- **Logo Component**
-- **Menu Component**
-
-### Body Component
-
-- **Search Component**
-- **RestaurantContainer**
-  - **RestaurantCard**
-    - Image
-    - Name of Restaurant
-    - Star Rating
-    - Cuisines
-    - Delivery Time
-
-### Footer Component
-
-- **Copyright**
-- **Links**
-- **Address**
-- **Contact**
+A beginner-friendly React project demonstrating component structure, hooks, and modern tooling.
 
 ---
 
-## Concepts
+## 📁 Project Structure
+
+```
+src/
+  components/
+    Header.js
+    Body.js
+    Footer.js
+    RestaurantCard.js
+    Shimmer.js
+  utils/
+    constants.js
+    mockData.js
+  App.js
+  index.js
+```
+
+---
+
+## 🧩 Components
+
+- **Header**
+  - Logo
+  - Menu
+- **Body**
+  - Search
+  - RestaurantContainer
+    - RestaurantCard (Image, Name, Star Rating, Cuisines, Delivery Time)
+- **Footer**
+  - Copyright
+  - Links
+  - Address
+  - Contact
+
+---
+
+## 📝 Concepts
 
 ### Functional Component
 
-A functional component is just a JavaScript function that returns JSX code.
+A JavaScript function that returns JSX.
 
 ### Props
 
-Props are the arguments passed to a component function.
+Arguments passed to a component.
 
 ---
 
-## Parcel
+## 🚀 Parcel
 
-Parcel is a web application bundler that does a lot behind the scenes:
+Parcel is a web application bundler that provides:
 
-- Dev Build
-- Local Server
-- HMR (Hot Module Replacement)
-- File Watching Algorithm (written in C++)
-- Caching (Faster Builds)
+- Dev Build & Local Server
+- Hot Module Replacement (HMR)
+- File Watching (C++)
+- Caching & Faster Builds
 - Image Optimization
-- Minification
-- Bundling
-- Compression
-- Consistent Hashing
-- Code Splitting
-- Differential Bundling (support for older browsers)
-- Diagnostics
-- Error Handling
-- HTTPS
-- Tree Shaking (removes unused code)
+- Minification & Bundling
+- Compression & Consistent Hashing
+- Code Splitting & Differential Bundling
+- Diagnostics & Error Handling
+- HTTPS & Tree Shaking
 
 ---
 
-## Two Types of Export/Import
+## 📦 Export/Import Types
 
 ### Default Export/Import
 
 ```javascript
 // Export
 export default MyComponent;
-
 // Import
 import MyComponent from "./MyComponent";
 ```
@@ -79,30 +85,30 @@ import MyComponent from "./MyComponent";
 ```javascript
 // Export
 export const MyComponent = () => {};
-
 // Import
 import { MyComponent } from "./MyComponent";
 ```
 
-...................
+---
 
-# React Hooks
-
-(Normal JS utility)
-
-React Hooks are special functions that let you use React features in functional components.
-
-## Common Hooks
+## ⚛️ React Hooks
 
 - **useState**: Adds state to functional components.
 - **useEffect**: Performs side effects (like data fetching).
-
 - **useContext**: Accesses context values.
-- **useRef**: Accesses mutable values that persist across renders.
-- **useReducer**: Manages complex state logic.
+- **useRef**: Mutable values across renders.
+- **useReducer**: Complex state logic.
 - **useMemo**: Memoizes expensive calculations.
 - **useCallback**: Memoizes callback functions.
 
-# Virtual DOM
+---
 
-virtual represents actual dom
+## ✨ Shimmer UI
+
+A loading placeholder effect that mimics the layout of the content while data is loading, improving user experience.
+
+---
+
+## 🖥️ Virtual DOM
+
+A lightweight representation of the actual

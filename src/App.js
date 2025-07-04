@@ -11,7 +11,6 @@ const stayleCard = {
 const AppLayout = () => {
   return (
     <div>
-      <Shimmer />
       <Header />
       <Body />
     </div>

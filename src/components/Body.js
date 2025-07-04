@@ -1,5 +1,6 @@
 import RestaurantCard from "./RestaurantCard"; // This is a named import
 import { useEffect, useState } from "react"; //This type import is called named import
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   //State variable
@@ -24,17 +25,10 @@ const Body = () => {
     setListOfRestaurants(restaurants);
   };
 
-  if (listOfRestaurants.length === 0) {
-    return (
-      <div className="loading">
-        <h1>Loading...</h1>
-      </div>
-    );
-  }
-
-  console.log("rendering body");
-
-  return (
+  // Conditional rendering based on the length of listOfRestaurants
+  return listOfRestaurants.length === 0 ? (
+    <Shimmer />
+  ) : (
     <div className="body">
       <div className="filter">
         <button
