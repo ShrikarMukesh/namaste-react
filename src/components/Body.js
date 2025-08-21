@@ -14,14 +14,17 @@ const Body = () => {
   console.log("Body component rendered");
 
   // useEffect hook to fetch data when the component mounts
-  // This hook runs after the first render and whenever the component updates
+  // This hook runs after the first render, and whenever the component updates
   useEffect(() => {
     console.log("useEffect called");
     fetchData();
   }, []); // Empty dependency array means this effect runs once after the initial render
 
   const fetchData = async () => {
-    const data = await fetch("http://localhost:3000/api/restaurants");
+    //const data = await fetch("http://localhost:3000/api/restaurants");
+    const data = await fetch(
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9396261&lng=77.53542949999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+    );
     const json = await data.json();
     //console.log(json);
     //console.log(json.data.cards[1]);

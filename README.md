@@ -88,7 +88,6 @@ export const MyComponent = () => {};
 // Import
 import { MyComponent } from "./MyComponent";
 ```
-
 ---
 
 ## ⚛️ React Hooks
@@ -112,3 +111,6 @@ A loading placeholder effect that mimics the layout of the content while data is
 ## 🖥️ Virtual DOM
 
 A lightweight representation of the actual
+
+DOM that React uses to optimize updates. It minimizes direct DOM manipulation, leading to better performance.
+
