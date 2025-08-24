@@ -1,6 +1,7 @@
 // Named export will be done in this below way
 import { useState, useEffect } from "react";
 import { LOGO_URI } from "../utils/constants";
+import {Link} from "react-router-dom"
 
 const Header = () => {
   // This is a local variable, not a state variable It will not cause a re-render when changed
@@ -21,9 +22,15 @@ const Header = () => {
       </div>
       <div className="nav-items">
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
+          <li>
+              <Link to ="/">Home</Link>
+          </li>
+          <li>
+              <Link to="/about">About Us </Link>
+          </li>
+          <li>
+              <Link to="/contactus">Contact Us </Link>
+          </li>
           <li>Cart</li>
           <button
             className="login"

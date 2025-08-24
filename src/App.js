@@ -3,9 +3,10 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Shimmer from "./components/Shimmer";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider,Outlet } from "react-router-dom";
 import About from "./components/About";
 import ContactUs from "./components/ContactUs";
+import Error from "./components/Error";
 
 const stayleCard = {
   backgroundColor: "gray",
@@ -15,7 +16,7 @@ const AppLayout = () => {
   return (
     <div>
       <Header />
-      <Body />
+      <Outlet />
     </div>
   );
 };
@@ -23,16 +24,24 @@ const AppLayout = () => {
 const appRouter = createBrowserRouter([
     {
         path: "/",
-        element: <AppLayout/>
-    },
-    {
-        path: "/about",
-        element: <About />
-    },
-    {
-        path: "/contactus",
-        element: <ContactUs />
+        element: <AppLayout/>,
+        children:[
+            {
+                path: "/",
+                element: <Body/>
+            },
+            {
+                path: "/about",
+                element: <About />
+            },
+            {
+                path: "/contactus",
+                element: <ContactUs />
+            }
+        ],
+        errorElement:<Error/>
     }
+
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // Render the React application into the DOM element with id "root"
