@@ -20,6 +20,8 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@dataconnect/generated": "file:dataconnect-generated/js/example-connector",
+    "firebase": "^12.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.30.1"
