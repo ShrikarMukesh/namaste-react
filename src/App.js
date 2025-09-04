@@ -47,11 +47,14 @@ const appRouter = createBrowserRouter([
         errorElement:<Error/>
     }
 
-])
+],{
+    future: {
+        v7_startTransition: true,
+    }
+})
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // Render the React application into the DOM element with id "root"
 // The RouterProvider component enables routing using the appRouter configuration
 root.render(
     <RouterProvider router={appRouter} />
 );
-

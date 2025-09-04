@@ -33,7 +33,7 @@
     - The `Link` component is typically used in single-page applications (SPAs) to maintain the application's state and performance.
    
 6. **Lifecycle of Class based components**?
-    - The lifecycle is divided into three main phases: **Mounting**, **Updating**, and **Unmounting**.
+   - The lifecycle is divided into three main phases: **Mounting**, **Updating**, and **Unmounting**.
     - **Mounting (Component is created and inserted into the DOM)**
         - `constructor()`: Initializes state and binds methods.
         - `static getDerivedStateFromProps()`: Syncs state with props before rendering.
@@ -50,6 +50,22 @@
     - **Error Handling**
         - `static getDerivedStateFromError()`: Renders a fallback UI when an error occurs in a child component.
         - `componentDidCatch()`: Logs error information.
+```
+/*****
+ * ---- MOUNTING ----
+ *
+ *     Constructor(dummy)
+ *     Render(dummy)
+ *        <HTML Dummy>
+ *     Component did mount
+ *        <API CALL>
+ *        <this.setState> --> state variable is update
+ * ---- UPDATE --------
+ *      Render (API Data)
+ *      <HTML (new api data
+ * --- Unmounting -----
+*/
+`````
 
 7. **Parent Child relationship in class based component**?
    - The relationship is defined by data flow and lifecycle execution order.

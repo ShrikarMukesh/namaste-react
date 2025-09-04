@@ -5,13 +5,13 @@ import {Component} from "react";
 class About extends Component {
     constructor() {
         super();
-        console.log('Parent Constructor called')
+        //console.log('Parent Constructor called')
     }
     componentDidMount() {
-        console.log('Parent componentDidMount called')
+        //console.log('Parent componentDidMount called')
     }
     render() {
-        console.log('Parent render called')
+        //console.log('Parent render called')
         return(
             <div>
                 <h1>About component</h1>
@@ -19,10 +19,6 @@ class About extends Component {
                 <UserClass
                     name={"Shrikar Mukesh coming as prop function based component"}
                     location={"Kalaburgi"}
-                />
-                <UserClass
-                    name={"Elon Musk"}
-                    location={"US"}
                 />
             </div>
         );

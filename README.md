@@ -114,3 +114,23 @@ A lightweight representation of the actual
 
 DOM that React uses to optimize updates. It minimizes direct DOM manipulation, leading to better performance.
 
+## React lifecycle
+
+![img.png](img.png)
+
+/*****
+* ---- MOUNTING ----
+*
+*     Constructor(dummy)
+*     Render(dummy)
+*        <HTML Dummy>
+*     Component did mount
+*        <API CALL>
+*        <this.setState> --> state variable is update
+* ---- UPDATE --------
+*      Render (API Data)
+*      <HTML (new api data
+* --- Unmounting -----
+  */
+
+
