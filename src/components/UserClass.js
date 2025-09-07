@@ -1,23 +1,25 @@
 import React from "react";
-class UserClass extends React.Component{
+
+class UserClass extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            userInfo : {
-                name:"Shrikar",
+            userInfo: {
+                name: "Shrikar",
                 location: "Default Bangalore",
                 company: "Infometry Default",
-                avatar_url:"http://dummy.photo"
+                avatar_url: "http://dummy.photo"
             }
             //count:10,
             //count2:20
         };
         //console.log(this.props.name + 'Child constructor called');
     }
+
     async componentDidMount() {
         //API CALLS
         //console.log(this.props.name + 'child componentDidMount called')
-        const  data = await fetch("https://api.github.com/users/shrikarmukesh");
+        const data = await fetch("https://api.github.com/users/shrikarmukesh");
         const json = await data.json();
         this.setState({
             userInfo: json
@@ -29,7 +31,7 @@ class UserClass extends React.Component{
         console.log('componentWillUnmount called')
     }
 
-    render (){
+    render() {
         //console.log(this.props.name + 'Child render called');
         //This is called destructing
         //const{count} = this.state;
@@ -39,7 +41,7 @@ class UserClass extends React.Component{
                 <h1>Name: {name}</h1>
                 <h2>Location:{location}</h2>
                 <h3>company:{company}</h3>
-                <img src = {avatar_url}></img>
+                <img src={avatar_url}></img>
                 {/*<h1>Count: {count}</h1>*/}
                 {/*<button onClick={()=>{*/}
                 {/*    //NEVER UPDATE STATE VARIABLE DIRECTLY IN REACT*/}
@@ -70,4 +72,4 @@ export default UserClass;
  *      Render (API Data)
  *      <HTML (new api data
  * --- Unmounting -----
-*/
+ */

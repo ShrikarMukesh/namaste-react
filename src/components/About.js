@@ -7,12 +7,14 @@ class About extends Component {
         super();
         //console.log('Parent Constructor called')
     }
+
     componentDidMount() {
         //console.log('Parent componentDidMount called')
     }
+
     render() {
         //console.log('Parent render called')
-        return(
+        return (
             <div>
                 <h1>About component</h1>
                 {/* <User name={"Shrikar Mukesh coming as prop class based component"}/>*/}
@@ -24,4 +26,5 @@ class About extends Component {
         );
     };
 }
+
 export default About;

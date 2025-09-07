@@ -1,5 +1,5 @@
-const ContactUs = () =>{
-    return(
+const ContactUs = () => {
+    return (
         <div>
             <h1>
                 This is contact us component

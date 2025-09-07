@@ -1,10 +1,9 @@
-
 import {useState} from "react";
 
-const User = (props) =>{
+const User = (props) => {
     const [count] = useState(0);
 
-    return(
+    return (
         <div className="user-card">
             <h1>Count : {count}</h1>
             <h1>Name: {props.name}</h1>
